@@ -70,7 +70,7 @@ public class Main {
             boolean bigLeap = false;
 
             while ((position - count ) <= 0) {
-                // skip one count if oldposition was already "0"
+                // skip one count if oldPosition was already "0"
                 if ((oldPosition == 0) && !bigLeap ) {
                     position = position + 100;
                     bigLeap = true;
