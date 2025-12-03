@@ -121,8 +121,8 @@ public class Main {
         int zeroCount = 0;
         int iteration = 1;
         System.out.println("0\t: " + position + "\t\t\t\t\t\t\t ZeroCount \t:" + zeroCount);
-        for (String line : readFile("src/data/input")) {
-//        for (String line : readFile("src/data/input_sample")) {
+        for (String line : readFile("src/data/day01/input")) {
+//        for (String line : readFile("src/data/day01/input_sample")) {
             List<Integer> listFromRotateV2 = rotateV2(line, position, zeroCount);
             position = listFromRotateV2.get(0);
             zeroCount = listFromRotateV2.get(1);
